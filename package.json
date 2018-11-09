@@ -1,10 +1,10 @@
 {
   "name": "@mixint/writepipette",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Transflect stream for multipart form file uploads",
   "main": "writepipette.js",
   "scripts": {
-      "test": "env NODE_DEBUG=writepipette node examples/simpleWrite"
+    "test": "env NODE_DEBUG=writepipette node examples/simpleWrite"
   },
   "repository": "https://github.com/mixint/WritePipette.git",
   "author": "Colten Jackson <jazzyjackson@gmail.com>",
