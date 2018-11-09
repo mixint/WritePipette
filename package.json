@@ -3,13 +3,18 @@
   "version": "0.1.0",
   "description": "Transflect stream for multipart form file uploads",
   "main": "writepipette.js",
+  "scripts": {
+      "test": "env NODE_DEBUG=writepipette node examples/simpleWrite"
+  },
   "repository": "https://github.com/mixint/WritePipette.git",
   "author": "Colten Jackson <jazzyjackson@gmail.com>",
   "license": "SEE LICENSE IN CONTINUITY.LICENSE",
   "dependencies": {
-    "@mixint/extrastat": "^1.0.0",
-    "@mixint/transflect": "^0.6.4",
-    "parsedmessage": "^3.0.1",
-    "serverfailsoft": "^2.0.2"
+    "@mixint/extrastat": "1.0.0",
+    "@mixint/formidable": "1.2.2",
+    "@mixint/transflect": "0.6.4",
+    "ctxify": "^0.2.0",
+    "parsedmessage": "3.0.1",
+    "serverfailsoft": "2.0.2"
   }
 }
