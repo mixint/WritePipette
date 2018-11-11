@@ -1,6 +1,6 @@
 {
   "name": "@mixint/writepipette",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Transflect stream for multipart form file uploads",
   "main": "writepipette.js",
   "scripts": {
