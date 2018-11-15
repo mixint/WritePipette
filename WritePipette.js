@@ -14,7 +14,7 @@ module.exports = class WritePipette extends Transflect {
             keepFilenames: true
         })
         this.form.writeHeaders(source.headers)
-        this.form.on('error', error => this.destroy('stream'))
+        this.form.on('error', error => this.destroy(error))
 
         this.push(ctxify({body: {
             childNodes: [
